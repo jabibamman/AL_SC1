@@ -1,13 +1,7 @@
 package com.example.al_intro;
 
 public class FizzBuzz {
-    public static void main(String[] args) {
-        System.out.println(fizbuzz(100));
-        System.out.println(fizbuzz(76));
-        System.out.println(fizbuzz(87));
-        System.out.println(fizbuzz(43));
-    }
-
+    public static void main(String[] args) { }
     public static String fizbuzz(int number) {
         if (number < 0) return null;
         switch (number % 15) {
