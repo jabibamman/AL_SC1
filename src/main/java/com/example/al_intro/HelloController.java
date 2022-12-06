@@ -31,7 +31,6 @@ public class HelloController {
         } else {
             welcomeText.setText(String.format(welcomeMessage, ", " + nameInput.getText()));
             welcomeGif.setVisible(true);
-            System.out.println("Hello " + nameInput.getText());
         }
 
     }
